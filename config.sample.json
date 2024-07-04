@@ -1,0 +1,41 @@
+{
+  "requirements_file": "requirements.txt",  // 指定要下载的依赖列表文件
+  "download_path": "/path/to/save/packages",  // 指定下载的依赖保存路径
+  "index_urls": [
+    "https://pypi.org/simple/"
+  ],
+	"platforms": [
+		"win32",
+		"win_amd64",
+		"win_arm64",
+		"manylinux1_x86_64",
+		"manylinux2010_x86_64",
+		"manylinux2014_x86_64",
+		"linux_i686",
+		"macosx_10_9_x86_64",
+		"macosx_11_0_arm64"
+	],
+	"python_versions": [
+		"3.17",
+		"3.8",
+		"3.9",
+		"3.10",
+		"3.11",
+		"3.12"
+	],
+  "implementation": null,  // 实现（如 'cpython'）
+  "abi": null,  // ABI（如 'cp37m'）
+  "find_links": [],  // 链接查找
+  "timeout": 60,  // 超时时间（秒）
+  "retries": 3,  // 重试次数
+  "trusted_hosts": [],  // 受信任的主机
+
+  "no_deps": false,  // 不下载依赖包
+  "no_binary": [],  // 不使用二进制包
+  "only_binary": [],  // 只使用二进制包
+  "prefer_binary": false,  // 更倾向于使用二进制包
+  "pre": false,  // 允许预发布版本
+  "no_cache_dir": false,  // 不使用缓存目录
+  "no_build_isolation": false,  // 不使用构建隔离
+  "constraint_file": null,  // 约束文件路径
+}

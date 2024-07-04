@@ -1,0 +1,3 @@
+pandas
+tqdm
+pip2pi==0.8.2

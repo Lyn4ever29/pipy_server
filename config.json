@@ -1,0 +1,26 @@
+{
+	"requirements_file": "normal.txt",
+	"download_path": "packages",
+	"index_urls": [
+		"https://pypi.tuna.tsinghua.edu.cn/simple/"
+	],
+	"platforms": [
+		"win32",
+		"win_amd64",
+		"win_arm64",
+		"manylinux1_x86_64",
+		"manylinux2010_x86_64",
+		"manylinux2014_x86_64",
+		"linux_i686",
+		"macosx_10_9_x86_64",
+		"macosx_11_0_arm64"
+	],
+	"python_versions": [
+		"3.17",
+		"3.8",
+		"3.9",
+		"3.10",
+		"3.11",
+		"3.12"
+	]
+}
