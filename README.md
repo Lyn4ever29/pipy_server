@@ -41,6 +41,7 @@ pip install numpy -i http://localhost:8080/simple/
 - 具体配置文件可以查看config.json
 - requirements.txt中内置了一些常用的依赖包，可以根据自己需求添加
 - 如果想同步清华源全部依赖，可以执行```get_pypy_list.py```
+- 清华源的所有依赖```tsinghua_pkgs.txt```
 - ```schedule_task.py```可以设置定时任务，每天/每周同步更新官方源
 
 - **platform** 参数用于指定目标平台，以便下载与指定平台兼容的二进制包,以下是常见的配置内容：
