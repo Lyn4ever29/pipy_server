@@ -21,7 +21,7 @@ python main.py
 
 
 3.配置pypi索引服务器
-可以使用python,也可以使用Nginx，Nginx配置可以查看[https://jhacker.cn/pypi_server](https://jhacker.cn/pypi_server)
+可以使用python,也可以使用Nginx，Nginx配置可以查看[https://jhacker.cn/2024/pypi_server](https://jhacker.cn/2024/pypi_server)
 ```shell
 #在下载目录里创建server服务，8080为端口号，可以随意设置：
 cd packages
